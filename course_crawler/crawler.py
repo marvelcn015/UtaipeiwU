@@ -25,8 +25,8 @@ from course_crawler.utils.constant import (
 
 class Crawler:
     def __init__(self):
-        self.year = "114"
-        self.semester = "2"
+        self.year = "115"
+        self.semester = "1"
         self.courses = {}
 
     async def run(self) -> None:
